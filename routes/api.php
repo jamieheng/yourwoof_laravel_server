@@ -93,7 +93,7 @@ Route::post('/tips', [tipsController::class, 'store']);
 Route::delete('/tips/{id}', [tipsController::class, 'delete']);
 Route::put('/tips/{id}', [tipsController::class, 'update']);
 
-
+// For Posts
 Route::get('/posts', [postController::class, 'index']);
 Route::post('/posts', [postController::class, 'store']);
 Route::put('/posts/{id}', [postController::class, 'update']);
